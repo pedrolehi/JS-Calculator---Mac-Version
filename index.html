@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- –––––––––––––––––––––––––––– BOOTSTRAP CSS NPM –––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.css" />
+
+    <!-- –––––––––––––––––––––––––––– BOOTSTRAP ICONS NPM –––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+
+    <!-- –––––––––––––––––––––––––––– LIB TEXT ANIMATION CSS–––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- –––––––––––––––––––––––––––– CSS IMPORT –––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- –––––––––––––––––––––––––––– Favicon –––––––––––––––––––––––––––––––––––––– -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="favicon project" />
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="project">
+
+        <nav class="navbar bg-transparent pb-5">
+            <div class="container-fluid">
+                <a class="navbar-brand"><i class="bi bi-calculator"></i></a>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-dark" type="submit"><i
+                            class="bi bi-brightness-alt-high-fill"></i></button>
+                </form>
+            </div>
+        </nav>
+
+        <h1 class="title">My Mac Calculator Clone</h1>
+
+        <div class="calc">
+            <div class="calc-sect-display">
+                <input class="calc-display" placeholder="0">
+                </input>
+            </div>
+            <div class="calc-sect-memory">
+                <button class="calc-button calc-mem calc-clear" data-value="C">
+                    <span class="calc-button--inner">
+                        C
+                    </span>
+                </button>
+                <button class="calc-button calc-mem" data-value="+/-">
+                    <span class="calc-button--inner">
+                        +/-
+                    </span>
+                </button>
+                <button class="calc-button calc-mem" data-value="%">
+                    <span class="calc-button--inner">
+                        %
+                    </span>
+                </button>
+            </div>
+            <div class="calc-sect-operations">
+                <button class="calc-button calc-opr" data-value="/">
+                    <span class="calc-button--inner">
+                        ÷
+                    </span>
+                </button>
+                <button class="calc-button calc-opr" data-value="*">
+                    <span class="calc-button--inner">
+                        ×
+                    </span>
+                </button>
+                <button class="calc-button calc-opr" data-value="-">
+                    <span class="calc-button--inner">
+                        -
+                    </span>
+                </button>
+                <button class="calc-button calc-opr" data-value="+">
+                    <span class="calc-button--inner">
+                        +
+                    </span>
+                </button>
+                <button class="calc-button calc-opr" data-value="=">
+                    <span class="calc-button--inner">
+                        =
+                    </span>
+                </button>
+            </div>
+            <div class="calc-sect-numbers">
+                <button class="calc-button calc-num-0 calc-num" data-value="0">
+                    <span class="calc-button--inner">
+                        0
+                    </span>
+                </button>
+                <button class="calc-button calc-num-coma calc-num" data-value=".">
+                    <span class="calc-button--inner">
+                        .
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="1">
+                    <span class="calc-button--inner">
+                        1
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="2">
+                    <span class="calc-button--inner">
+                        2
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="3">
+                    <span class="calc-button--inner">
+                        3
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="4">
+                    <span class="calc-button--inner">
+                        4
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="5">
+                    <span class="calc-button--inner">
+                        5
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="6">
+                    <span class="calc-button--inner">
+                        6
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="7">
+                    <span class="calc-button--inner">
+                        7
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="8">
+                    <span class="calc-button--inner">
+                        8
+                    </span>
+                </button>
+                <button class="calc-button calc-num" data-value="9">
+                    <span class="calc-button--inner">
+                        9
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-4 bg-transparent">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/" style="text-decoration: none;">Pedro Muniz <i
+                    class="bi bi-linkedin"></i></a>
+        </div>
+        <!-- Copyright -->
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+</body>
+
+</html>
